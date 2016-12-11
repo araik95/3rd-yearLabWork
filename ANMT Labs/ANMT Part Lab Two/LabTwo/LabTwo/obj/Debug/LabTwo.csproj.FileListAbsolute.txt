@@ -1,0 +1,8 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\ANMT\ANMT Labs\ANMT Part Lab Two\LabTwo\LabTwo\bin\Debug\LabTwo.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\ANMT\ANMT Labs\ANMT Part Lab Two\LabTwo\LabTwo\bin\Debug\LabTwo.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\ANMT\ANMT Labs\ANMT Part Lab Two\LabTwo\LabTwo\bin\Debug\LabTwo.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\ANMT\ANMT Labs\ANMT Part Lab Two\LabTwo\LabTwo\bin\Debug\MathNet.Numerics.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\ANMT\ANMT Labs\ANMT Part Lab Two\LabTwo\LabTwo\bin\Debug\MathNet.Numerics.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\ANMT\ANMT Labs\ANMT Part Lab Two\LabTwo\LabTwo\obj\Debug\LabTwo.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\ANMT\ANMT Labs\ANMT Part Lab Two\LabTwo\LabTwo\obj\Debug\LabTwo.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\ANMT\ANMT Labs\ANMT Part Lab Two\LabTwo\LabTwo\obj\Debug\LabTwo.pdb
