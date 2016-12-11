@@ -24,14 +24,17 @@ namespace LabTwo
             nyutonMethod_ForTwoUnknown();
         }
 
-        static void simpleIterationMethod_V1()
+        /*   example for 
+        *              f = 2 * x + log(2 * x + 3) - 1
+        *              Starting point (0)        
+        */
+        static void simpleIterationMethod_ForOneUnknown()
         {
-            Console.WriteLine("**************** Simple Iteration Method V1 ****************\n\n");           
+            Console.WriteLine("**************** Simple Iteration Method ForOneUnknown ****************\n\n");           
             x_old = 0;
             count = 0;
             while (true)
-            {
-               
+            {           
                 count++;
                 x_new = (1 - Math.Log10(2 * x_old + 3)) / 2;
                 Console.WriteLine("Iteration number = " + count);
@@ -44,8 +47,7 @@ namespace LabTwo
             }
         }
 
-
-        /*  exaple for 
+        /*  example for 
          *              f1 = 3 * x - cos y - 0.9 = 0
          *              f2 = sin( x - 0.6 ) - y - 1.6 = 0 
          *              Starting point (-1;-1) 
@@ -76,12 +78,13 @@ namespace LabTwo
             }
         }
 
-
-
-
-        static void nyutonMethod_V1()
+       /*   example for 
+       *              f = 2 * x + log(2 * x + 3) - 1
+       *              Starting point (0.5)        
+      */
+        static void nyutonMethod_ForOneUnknown()
         {
-            Console.WriteLine("**************** Nyuton Method V1 ****************\n\n");
+            Console.WriteLine("**************** Nyuton Method ForOneUnknown ****************\n\n");
 
             double x0 = 0.5;
             x_old = x0;
@@ -109,7 +112,7 @@ namespace LabTwo
         }
 
 
-        /*  exaple for 
+        /*  example for 
          *              f1 = 3 * x - cos y - 0.9 = 0
          *              f2 = sin( x - 0.6 ) - y - 1.6 = 0 
          *              Starting point (2;1)        
@@ -127,10 +130,7 @@ namespace LabTwo
                 {3, Math.Sin(y_old) },
                 {Math.Cos(x_old - 0.6 ), -1 }
             });
-
-
             Vector<double> vectorOf_f1_f2 = vector_f1_f2(x_old, y_old);
-
             Vector<double> matrix_old = DenseVector.OfArray(new double[]
             {
                 x_old,y_old
@@ -153,7 +153,6 @@ namespace LabTwo
                     Console.WriteLine();
 
                     if (Math.Abs(matrix_old.Sum() - matrix_new.Sum()) < 0.000001 || count == 1000) break;
-
                     matrix_old = matrix_new;
             }
         }
