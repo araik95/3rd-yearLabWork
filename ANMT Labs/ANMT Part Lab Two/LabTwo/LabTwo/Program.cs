@@ -28,7 +28,7 @@ namespace LabTwo
             diff_One();
             diff_Two();
 
-            Console.ReadLine();
+            //Console.ReadLine();
         }
 
         /*   example for 
